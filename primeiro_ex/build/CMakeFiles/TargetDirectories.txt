@@ -1,0 +1,3 @@
+/Users/rodrigo/Documents/utfpr/opencv/pdi/primeiro_ex/build/CMakeFiles/rebuild_cache.dir
+/Users/rodrigo/Documents/utfpr/opencv/pdi/primeiro_ex/build/CMakeFiles/edit_cache.dir
+/Users/rodrigo/Documents/utfpr/opencv/pdi/primeiro_ex/build/CMakeFiles/primeiro_ex.dir
