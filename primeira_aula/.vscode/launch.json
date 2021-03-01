@@ -1,17 +1,17 @@
 {
   "version": "0.2.0",
   "configurations": [
-      {
-          "name": "(lldb) Debugger",
-          "type": "cppdbg",
-          "request": "launch",
-          "program": "build/simple-demo",
-          // "args": ["/Users/rodrigo/Pictures/missão.jpg"],
-          "stopAtEntry": true,
-          "cwd": "${workspaceFolder}",
-          "environment": [],
-          "externalConsole": true,
-          "MIMode": "lldb"
-      }
+    {
+      "name": "(lldb) Debugger",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/Users/rodrigo/Documents/utfpr/opencv/pdi/primeira_aula/build/primeira_aula",
+      // "args": ["/Users/rodrigo/Pictures/missão.jpg"],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    }
   ]
 }
