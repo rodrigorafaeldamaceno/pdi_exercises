@@ -40,31 +40,43 @@ int main()
   char imageAddress[255];
   int chosen;
 
-  cout << "1: XYZ\n"
-          "2: YUV\n"
-          "3: Gray\n"
-          "4: RGB\n"
-          "5: HSV\n"
-          "6: Lab\n"
-          "\n";
-
   cout << "Informe o endereço da imagem: ";
   cin >> imageAddress;
 
-  originalImage = imread(imageAddress);
-  // originalImage = imread("/Users/rodrigo/Pictures/missao.jpg");
+  // originalImage = imread(imageAddress);
+  originalImage = imread("/Users/rodrigo/Pictures/missao.jpg");
 
-  cout << "Escolha uma opção: ";
-  cin >> chosen;
-
-  convertedImage = converterImg(chosen, originalImage);
-
-  namedWindow("Converted", WINDOW_NORMAL);
   namedWindow("Original", WINDOW_NORMAL);
-
   imshow("Original", originalImage);
-  imshow("Converted", convertedImage);
-  waitKey(0);
+
+  waitKey(1);
+  int cont = 0;
+  do
+  {
+    cout << "1: XYZ\n"
+            "2: YUV\n"
+            "3: Gray\n"
+            "4: RGB\n"
+            "5: HSV\n"
+            "6: Lab\n"
+            "9: Sair\n"
+            "\n"
+         << endl;
+
+    cout << "Escolha uma opção: " << endl;
+    cin >> chosen;
+
+    convertedImage = converterImg(chosen, originalImage);
+
+    stringstream ss;
+    ss << cont;
+    string converted = "converted" + ss.str();
+
+    imshow("Converted", convertedImage);
+    // imshow(converted, convertedImage);
+    waitKey(1);
+    cont++;
+  } while (chosen != 9);
 
   return 0;
 }
