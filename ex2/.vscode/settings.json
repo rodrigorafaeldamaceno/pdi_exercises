@@ -1,0 +1,8 @@
+// settings.json
+{
+  "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+  "files.associations": {
+    "iostream": "cpp"
+  },
+  "cmake.configureOnOpen": true
+}

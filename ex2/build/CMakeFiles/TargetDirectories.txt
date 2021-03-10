@@ -1,0 +1,3 @@
+/Users/rodrigo/Documents/utfpr/opencv/pdi/ex2/build/CMakeFiles/rebuild_cache.dir
+/Users/rodrigo/Documents/utfpr/opencv/pdi/ex2/build/CMakeFiles/edit_cache.dir
+/Users/rodrigo/Documents/utfpr/opencv/pdi/ex2/build/CMakeFiles/ex2.dir
